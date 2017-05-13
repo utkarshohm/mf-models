@@ -1,5 +1,5 @@
 # mutual-fund-models
-Models(data structures) required to make a mutual fund investment platform
+Models (data structures) required to make a mutual fund investment platform
 
 ## Context
 ### Real-life application of library
