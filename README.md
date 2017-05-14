@@ -1,4 +1,4 @@
-# mutual-fund-models
+# mf-models
 Models (data structures) required to make a mutual fund investment platform
 
 ## Context
@@ -22,6 +22,10 @@ I used a relational database MySQL to store all funds, users and transactions da
 
 #### Time series data
 I chose document database MongoDB to store the graphs models. Every scheme was a document because time series data was mostly requested fund-by-fund for graph visualisations. Note that aggregates of risk and return like average return etc are periodically calculated on top of the time series data and stored in funds models. Time series databases like Druid and InfluxDB would have been good options too.
+
+## Related repos
+* [Historical NAV/price/time-series data of mutual funds and popular benchmark indices in India](https://github.com/utkarshohm/mf-nav-data)
+* [Library to build a mutual fund transaction platform using the Bombay Stock Exchange StarMF platform and API](https://github.com/utkarshohm/mf-platform-bse)
 
 ## Need help setting this up or want to contribute?
 Feel free to raise an issue and I will get back asap
